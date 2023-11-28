@@ -11,7 +11,7 @@ namespace ProgrammaticallyBuilding
     {
         public CameraNode(float x, float y, float z) 
         {
-            Set("position", new Godot.Vector3(x,y,z));
+            Set("position", new Vector3(x,y,z));
         }
 
         float acceleration = 25.0f; //Key acceleration speed

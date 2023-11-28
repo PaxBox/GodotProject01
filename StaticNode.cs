@@ -46,7 +46,7 @@ namespace ProgrammaticallyBuilding
             return lable;
         }
 
-        private void OnInput(Node camera, InputEvent @event, Godot.Vector3 position, Godot.Vector3 normal, long shapeIdx)
+        private void OnInput(Node camera, InputEvent @event, Vector3 position, Vector3 normal, long shapeIdx)
         {
             if (@event is InputEventMouseButton && @event.IsPressed())
             {
