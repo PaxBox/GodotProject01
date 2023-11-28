@@ -16,6 +16,7 @@ x64/
 
 # Godot mess
 *Building_x86_64/
+/data_Programmatically\ Building_x86_64/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
