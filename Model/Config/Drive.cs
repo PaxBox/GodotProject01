@@ -1,4 +1,4 @@
-﻿namespace ProgrammaticallyBuilding.Model
+﻿namespace ProgrammaticallyBuilding.Model.Config
 {
     public class Drive
     {

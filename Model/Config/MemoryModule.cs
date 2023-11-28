@@ -1,9 +1,9 @@
-﻿namespace ProgrammaticallyBuilding.Model
+﻿namespace ProgrammaticallyBuilding.Model.Config
 {
-    public class CPU
+    public class MemoryModule
     {
         public string Model { get; set; } = string.Empty;
         public string SerialNumber { get; set; } = string.Empty;
-        public float Speed { get; set; }
+        public float Capacity { get; set; }
     }
 }

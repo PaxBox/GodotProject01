@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ProgrammaticallyBuilding.Model
+namespace ProgrammaticallyBuilding.Model.Config
 {
 
     /// <summary>

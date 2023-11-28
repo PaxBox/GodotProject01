@@ -1,7 +1,7 @@
 ﻿using Godot;
 using System.Collections.Generic;
 
-namespace ProgrammaticallyBuilding.Model
+namespace ProgrammaticallyBuilding.Model.Config
 {
     public class DataCenterRoom
     {
@@ -11,6 +11,6 @@ namespace ProgrammaticallyBuilding.Model
 
         public Point InitialCameraPosition { get; set; } = new Point();
 
-        public Vector3 InitialCameraRotation { get; set; } = new Vector3();
+        public V3 InitialCameraRotation { get; set; } = new V3();
     }
 }
