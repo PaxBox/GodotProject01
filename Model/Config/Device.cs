@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProgrammaticallyBuilding.Model
+namespace ProgrammaticallyBuilding.Model.Config
 {
     public class Device
     {

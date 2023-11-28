@@ -9,9 +9,14 @@ namespace ProgrammaticallyBuilding
 {
     public partial class CameraNode : Camera3D
     {
-        public CameraNode(float x, float y, float z) 
+        public CameraNode(float x, float y, float z)
         {
-            Set("position", new Vector3(x,y,z));
+            Set("position", new Vector3(x, y, z));
+        }
+
+        public CameraNode(Vector3 initialPosition)
+        {
+            Set("position", initialPosition);
         }
 
         float acceleration = 25.0f; //Key acceleration speed
