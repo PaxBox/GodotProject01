@@ -1,8 +1,7 @@
 using Godot;
 using System;
 using System.IO;
-using ServerManagerMockup;
-using Vector = ServerManagerMockup.Vector;
+using ProgrammaticallyBuilding.Model;
 using Newtonsoft.Json;
 
 namespace ProgrammaticallyBuilding
@@ -119,9 +118,9 @@ namespace ProgrammaticallyBuilding
         }
 
         //Makes a Vector object of the Vector class in ServerManager
-        private static Vector MakeVector(float x, float y, float z)
+        private static Vector3 MakeVector(float x, float y, float z)
         {
-            Vector vector = new()
+            Vector3 vector = new()
             {
                 X = x,
                 Y = y,
