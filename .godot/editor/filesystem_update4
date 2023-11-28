@@ -1,0 +1,8 @@
+res://CameraNode.cs
+res://CollisionNode.cs
+res://MeshNode.cs
+res://Start.cs
+res://StaticNode.cs
+res://TestMeshInstance3D.cs
+res://start.tscn
+res://test_cylinder.tscn

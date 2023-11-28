@@ -1,0 +1,17 @@
+{
+  "profiles": {
+    "Programmatically Building": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Tange\\Documents\\Godot_v4.1.2-stable_mono_win64",
+      "workingDirectory": ".",
+      "nativeDebugging": true
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\Tange\\Documents\\Godot_v4.1.2-stable_mono_win64\\Godot_v4.1.2-stable_mono_win64.exe",
+      "commandLineArgs": "--path.--verbose",
+      "workingDirectory": ".",
+      "nativeDebugging": true
+    }
+  }
+}

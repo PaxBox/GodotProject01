@@ -1,0 +1,596 @@
+{
+  "Racks": [
+    {
+      "Position": {
+        "X": 10.0,
+        "Y": 2.5,
+        "Z": 0.0
+      },
+      "Depth": 0.0,
+      "RackUnits": 3,
+      "Devices": [
+        {
+          "DeviceType": "",
+          "Height": 0,
+          "RackUnit": 0,
+          "DeviceDepth": 0.0
+        },
+        {
+          "DeviceType": "",
+          "Height": 0,
+          "RackUnit": 0,
+          "DeviceDepth": 0.0
+        },
+        {
+          "DeviceType": "",
+          "Height": 0,
+          "RackUnit": 0,
+          "DeviceDepth": 0.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 10.0,
+        "Y": 5.0,
+        "Z": 0.0
+      },
+      "Depth": 0.0,
+      "RackUnits": 2,
+      "Devices": [
+        {
+          "DeviceType": "",
+          "Height": 0,
+          "RackUnit": 0,
+          "DeviceDepth": 0.0
+        },
+        {
+          "DeviceType": "",
+          "Height": 0,
+          "RackUnit": 0,
+          "DeviceDepth": 0.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 0.0,
+        "Y": 0.5,
+        "Z": 0.5
+      },
+      "Depth": 1.0,
+      "RackUnits": 4,
+      "Devices": [
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 0,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "DeviceTypeFiller",
+          "Height": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    }
+  ],
+  "RoomSize": {
+    "Width": 0.0,
+    "Height": 0.0,
+    "Depth": 0.0
+  },
+  "InitialCameraPosition": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 2.5
+  },
+  "InitialCameraRotation": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  }
+}

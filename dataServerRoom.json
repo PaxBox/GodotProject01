@@ -1,0 +1,141 @@
+{
+  "Racks": [
+    {
+      "Position": {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Depth": 0.0,
+      "RackUnits": 3,
+      "Devices": [
+        {
+          "DeviceType": "Test0",
+          "Hight": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test1",
+          "Hight": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test2",
+          "Hight": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Depth": 0.0,
+      "RackUnits": 2,
+      "Devices": [
+        {
+          "DeviceType": "Test3",
+          "Hight": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test4",
+          "Hight": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": 2.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Depth": 0.0,
+      "RackUnits": 5,
+      "Devices": [
+        {
+          "DeviceType": "Test5",
+          "Hight": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test6",
+          "Hight": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test7",
+          "Hight": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test8",
+          "Hight": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test8",
+          "Hight": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        }
+      ]
+    },
+    {
+      "Position": {
+        "X": -1.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Depth": 0.0,
+      "RackUnits": 3,
+      "Devices": [
+        {
+          "DeviceType": "Test0",
+          "Hight": 1,
+          "RackUnit": 1,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test1",
+          "Hight": 1,
+          "RackUnit": 2,
+          "DeviceDepth": 1.0
+        },
+        {
+          "DeviceType": "Test2",
+          "Hight": 1,
+          "RackUnit": 3,
+          "DeviceDepth": 1.0
+        }
+      ]
+    }
+  ],
+  "RoomSize": {
+    "Width": 10.0,
+    "Height": 2.5,
+    "Depth": 5.0
+  },
+  "InitialCameraPosition": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 2.5
+  },
+  "InitialCameraRotation": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  }
+}

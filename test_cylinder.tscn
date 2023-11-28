@@ -1,0 +1,66 @@
+[gd_scene load_steps=9 format=3 uid="uid://c0ouxwhsx7554"]
+
+[ext_resource type="PackedScene" uid="uid://dnewvcpu0to78" path="res://Blender/rack.blend" id="1_23rrn"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ti80c"]
+sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
+
+[sub_resource type="Sky" id="Sky_nmrnb"]
+sky_material = SubResource("ProceduralSkyMaterial_ti80c")
+
+[sub_resource type="Environment" id="Environment_gj0je"]
+background_mode = 2
+sky = SubResource("Sky_nmrnb")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_4bf1d"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_p1cfr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_lrmwb"]
+albedo_color = Color(0.784314, 0.784314, 0.294118, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_xufhk"]
+size = Vector3(0.5, 0.3, 1)
+
+[node name="Node3D" type="Node3D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_gj0je")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.79098)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
+shape = SubResource("CapsuleShape3D_4bf1d")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D/CollisionShape3D"]
+mesh = SubResource("CapsuleMesh_p1cfr")
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="PopupPanel" type="PopupPanel" parent="."]
+visible = true
+
+[node name="Label3D" type="Label3D" parent="PopupPanel"]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="CSGBox3D" type="CSGBox3D" parent="."]
+flip_faces = true
+material = SubResource("StandardMaterial3D_lrmwb")
+
+[node name="rack" parent="." instance=ExtResource("1_23rrn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.11609, 0, 1.55188)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="rack"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="rack/StaticBody3D"]
+shape = SubResource("BoxShape3D_xufhk")

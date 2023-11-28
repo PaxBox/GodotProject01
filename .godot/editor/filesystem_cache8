@@ -1,0 +1,22 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1701184432
+CameraNode.cs::CSharpScript::-1::1700580627::0::1::::<><>::
+CollisionNode.cs::CSharpScript::-1::1700579975::0::1::::<><>::
+dataServerRoom.json::JSON::-1::1701109907::0::1::::<><>::
+delete.json::JSON::-1::1701095033::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1699296857::0::1::::<><>::
+icon.svg::CompressedTexture2D::4569602657313373426::1698841687::1698869886::1::::<><>::
+MeshNode.cs::CSharpScript::-1::1700580134::0::1::::<><>::
+Start.cs::CSharpScript::-1::1701184280::0::1::::<><>::
+start.tscn::PackedScene::3338166226187990242::1701184384::0::1::::<><>::res://Start.cs
+StaticNode.cs::CSharpScript::-1::1701182764::0::1::::<><>::
+TestMeshInstance3D.cs::CSharpScript::-1::1701179232::0::1::::<><>::
+test_cylinder.tscn::PackedScene::6557720327186191361::1701184384::0::1::::<><>::uid://dnewvcpu0to78::::res://Blender/rack.blend
+::res://Blender/::1700406273
+rack.blend::PackedScene::8081347934064475777::1700249792::1700249795::1::::<><>::
+rackunit.blend::PackedScene::8376912058761710034::1700406268::1700406273::1::::<><>::
+::res://data_Programmatically Building_x86_64/::1699296856
+Programmatically Building.deps.json::JSON::-1::1699296853::0::1::::<><>::
+Programmatically Building.runtimeconfig.json::JSON::-1::1699296853::0::1::::<><>::
+::res://Properties/::1698867487
+launchSettings.json::JSON::-1::1698868156::0::1::::<><>::
