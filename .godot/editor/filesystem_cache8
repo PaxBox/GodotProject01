@@ -1,22 +1,42 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701184432
-CameraNode.cs::CSharpScript::-1::1700580627::0::1::::<><>::
-CollisionNode.cs::CSharpScript::-1::1700579975::0::1::::<><>::
-dataServerRoom.json::JSON::-1::1701109907::0::1::::<><>::
-delete.json::JSON::-1::1701095033::0::1::::<><>::
-export_presets.cfg::TextFile::-1::1699296857::0::1::::<><>::
-icon.svg::CompressedTexture2D::4569602657313373426::1698841687::1698869886::1::::<><>::
-MeshNode.cs::CSharpScript::-1::1700580134::0::1::::<><>::
-Start.cs::CSharpScript::-1::1701184280::0::1::::<><>::
-start.tscn::PackedScene::3338166226187990242::1701184384::0::1::::<><>::res://Start.cs
-StaticNode.cs::CSharpScript::-1::1701182764::0::1::::<><>::
-TestMeshInstance3D.cs::CSharpScript::-1::1701179232::0::1::::<><>::
-test_cylinder.tscn::PackedScene::6557720327186191361::1701184384::0::1::::<><>::uid://dnewvcpu0to78::::res://Blender/rack.blend
-::res://Blender/::1700406273
-rack.blend::PackedScene::8081347934064475777::1700249792::1700249795::1::::<><>::
-rackunit.blend::PackedScene::8376912058761710034::1700406268::1700406273::1::::<><>::
-::res://data_Programmatically Building_x86_64/::1699296856
-Programmatically Building.deps.json::JSON::-1::1699296853::0::1::::<><>::
-Programmatically Building.runtimeconfig.json::JSON::-1::1699296853::0::1::::<><>::
-::res://Properties/::1698867487
-launchSettings.json::JSON::-1::1698868156::0::1::::<><>::
+::res://::1702412480
+CameraNode.cs::CSharpScript::-1::1702131409::0::1::::<><>::
+CollisionNode.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+DataCenterRoomSky.tres::Sky::6303212318227891040::1702297578::0::1::::<><>::
+dataServerRoom.json::JSON::-1::1702398607::0::1::::<><>::
+delete.json::JSON::-1::1702127893::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1702127893::0::1::::<><>::
+icon.svg::CompressedTexture2D::4569602657313373426::1702127893::1702127893::1::::<><>::
+MeshNode.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+Start.cs::CSharpScript::-1::1702130127::0::1::::<><>::
+start.tscn::PackedScene::3338166226187990242::1702398479::0::1::::<><>::res://Start.cs
+StaticNode.cs::CSharpScript::-1::1702301397::0::1::::<><>::
+TestMeshInstance3D.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+test_cylinder.gdshader::Shader::-1::1702226870::0::1::::<><>::
+test_cylinder.tscn::PackedScene::6557720327186191361::1702398479::0::1::::<><>::uid://dnewvcpu0to78::::res://Blender/rack.blend<>res://Blender/testrack.cs
+::res://Blender/::1702303860
+rack.blend::PackedScene::8081347934064475777::1702302520::1702302524::1::::<><>::
+rackunit.blend::PackedScene::8376912058761710034::1702303856::1702303860::1::::<><>::
+testrack.cs::CSharpScript::-1::1702224692::0::1::::<><>::
+::res://data_Programmatically Building_x86_64/::1702127893
+Programmatically Building.deps.json::JSON::-1::1702127893::0::1::::<><>::
+Programmatically Building.runtimeconfig.json::JSON::-1::1702127893::0::1::::<><>::
+::res://Model/::1702127893
+TODO.md::TextFile::-1::1702127893::0::1::::<><>::
+::res://Model/Config/::1702396758
+CPU.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+DataCenterRoom.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+Device.cs::CSharpScript::-1::1702396756::0::1::::<><>::
+Drive.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+MemoryModule.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+Point.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+Rack.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+Server.cs::CSharpScript::-1::1702396758::0::1::::<><>::
+Size.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+V3.cs::CSharpScript::-1::1702127893::0::1::::<><>::
+::res://Properties/::1702127893
+launchSettings.json::JSON::-1::1702127893::0::1::::<><>::
+::res://View/::1702128112
+DataCenterView.cs::CSharpScript::-1::1702128112::0::1::::<><>::
+::res://ViewModel/::1702398530
+DataCenterViewModel.cs::CSharpScript::-1::1702398530::0::1::::<><>::

@@ -1,26 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://bntbd0g0h1ic5"]
+[gd_scene load_steps=2 format=3 uid="uid://bntbd0g0h1ic5"]
 
 [ext_resource type="Script" path="res://Start.cs" id="1_fsn7t"]
 
-[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_g7d2l"]
-sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
-ground_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
-
-[sub_resource type="Sky" id="Sky_qielr"]
-sky_material = SubResource("ProceduralSkyMaterial_g7d2l")
-
-[sub_resource type="Environment" id="Environment_lc3sx"]
-background_mode = 2
-sky = SubResource("Sky_qielr")
-tonemap_mode = 2
-glow_enabled = true
-
 [node name="Start" type="Node3D"]
 script = ExtResource("1_fsn7t")
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_lc3sx")
-
-[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
-shadow_enabled = true

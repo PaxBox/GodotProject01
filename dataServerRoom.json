@@ -6,20 +6,124 @@
         "Y": 0.0,
         "Z": 0.0
       },
-      "Depth": 0.0,
+      "Depth": 1.0,
       "RackUnits": 3,
       "Devices": [
         {
-          "DeviceType": "Test0",
+          "$type": "Server",
+          "DeviceType": "Server",
           "Hight": 1,
           "RackUnit": 1,
-          "DeviceDepth": 1.0
+          "DeviceDepth": 1.0,
+          "Drives": [
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            }
+          ],
+          "MemoryModules": [
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            }
+          ],
+          "CPUs": [
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Speed": 1.0
+            }
+          ]
         },
         {
-          "DeviceType": "Test1",
+          "$type": "Server",
+          "DeviceType": "Server",
           "Hight": 1,
           "RackUnit": 2,
-          "DeviceDepth": 1.0
+          "DeviceDepth": 1.0,
+          "Drives": [
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            }
+          ],
+          "MemoryModules": [
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            },
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Capasity": 1.0
+            }
+          ],
+          "CPUs": [
+            {
+              "Model": "testModel",
+              "Serial Number": "test SerialNumber",
+              "Speed": 1.0
+            }
+          ]
         },
         {
           "DeviceType": "Test2",
@@ -35,7 +139,7 @@
         "Y": 0.0,
         "Z": 0.0
       },
-      "Depth": 0.0,
+      "Depth": 1.0,
       "RackUnits": 2,
       "Devices": [
         {
@@ -58,7 +162,7 @@
         "Y": 0.0,
         "Z": 0.0
       },
-      "Depth": 0.0,
+      "Depth": 1.0,
       "RackUnits": 5,
       "Devices": [
         {
@@ -95,11 +199,11 @@
     },
     {
       "Position": {
-        "X": -1.0,
+        "X": -2.0,
         "Y": 0.0,
         "Z": 0.0
       },
-      "Depth": 0.0,
+      "Depth": 1.0,
       "RackUnits": 3,
       "Devices": [
         {
