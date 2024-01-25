@@ -1,7 +1,10 @@
-[gd_scene load_steps=11 format=3 uid="uid://c0ouxwhsx7554"]
+[gd_scene load_steps=15 format=3 uid="uid://c0ouxwhsx7554"]
 
 [ext_resource type="PackedScene" uid="uid://dnewvcpu0to78" path="res://Blender/rack.blend" id="1_23rrn"]
 [ext_resource type="Script" path="res://Blender/testrack.cs" id="2_hy1py"]
+[ext_resource type="PackedScene" uid="uid://bynilug768te8" path="res://Blender/deviceBody.blend" id="3_3wojy"]
+[ext_resource type="PackedScene" uid="uid://drl3ruqxn23kg" path="res://Blender/rackUnit.blend" id="4_tirrc"]
+[ext_resource type="PackedScene" uid="uid://4fg42fe2i3xo" path="res://Blender/deviceLid.blend" id="5_s1cfh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ti80c"]
 sky_horizon_color = Color(0.64625, 0.65575, 0.67075, 1)
@@ -29,7 +32,10 @@ albedo_color = Color(0.0784314, 0.117647, 0.117647, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_xufhk"]
 size = Vector3(0.5, 0.3, 1)
 
+[sub_resource type="QuadMesh" id="QuadMesh_tjn2l"]
+
 [node name="Node3D" type="Node3D"]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_gj0je")
@@ -56,23 +62,39 @@ mesh = SubResource("CapsuleMesh_p1cfr")
 visible = true
 
 [node name="Label3D" type="Label3D" parent="PopupPanel"]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -0.132085, -0.0665233, 0.444237)
 
 [node name="CSGBox3D" type="CSGBox3D" parent="."]
 flip_faces = true
 material = SubResource("StandardMaterial3D_lrmwb")
 
 [node name="rack" parent="." instance=ExtResource("1_23rrn")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.11609, 0, 1.55188)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.09392, 0, 1.55188)
 script = ExtResource("2_hy1py")
 
 [node name="Cube" parent="rack" index="0"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0142618, 0.0989806, -0.0572226)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.266756, 0.419518, 0.102383)
 material_override = SubResource("StandardMaterial3D_ncmu7")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="rack"]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="rack/StaticBody3D"]
 shape = SubResource("BoxShape3D_xufhk")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.37114e-07, 0, -1, 0, 5, 0, 10, 0, -4.37114e-08, 0, 0, 0)
+mesh = SubResource("QuadMesh_tjn2l")
+
+[node name="deviceBody" parent="." instance=ExtResource("3_3wojy")]
+transform = Transform3D(0.5, 0, 0, 0, 0.1, 0, 0, 0, 1, -2.36961, 0, 1.55048)
+
+[node name="rackunit" parent="." instance=ExtResource("4_tirrc")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.218007, 0, 2.38668)
+
+[node name="rack2" parent="." instance=ExtResource("1_23rrn")]
+transform = Transform3D(0.5, 0, 0, 0, 1, 0, 0, 0, 1, -2.36095, 0, 1.55605)
+
+[node name="deviceLid" parent="." instance=ExtResource("5_s1cfh")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.00606, 0, 2.11785)
 
 [editable path="rack"]

@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Godot;
 using System.Text.Json.Serialization;
-using System.Threading.Tasks;
 
 namespace ProgrammaticallyBuilding.Model.Config
 {
@@ -25,8 +21,23 @@ namespace ProgrammaticallyBuilding.Model.Config
         public int RackUnit { get; set; }
 
         /// <summary>
+        /// Width of the device in meters
+        /// </summary>
+        public float DeviceWidth { get; set; }
+
+        /// <summary>
+        /// Height of the device in meters
+        /// </summary>
+        public float DeviceHeight { get; set; }
+
+        /// <summary>
         /// Depth of the device in meters
         /// </summary>
         public float DeviceDepth { get; set; }
+
+        /// <summary>
+        /// Godot Node of rack
+        /// </summary>
+        public Node DeviceNode { get; set; }
     }
 }

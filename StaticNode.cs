@@ -9,20 +9,19 @@ namespace ProgrammaticallyBuilding
 {
     public partial class StaticNode : StaticBody3D
     {
-        int childNum;
-        float transparency = 0.7f;
         Vector3 size;
+        int childNum;
+        public float transparency = 0.7f;
+        public bool clicked = false;
         public StaticNode(Vector3 size)
         {
             this.size = size;
+            AddChild(CreateLable());
+            AddChild(AddCollision(size));
         }
 
         public override void _Ready()
         {
-            InputEvent += OnInput;
-            AddChild(CreateLable());
-            AddChild(AddCollision(size));
-
             base._Ready();
         }
 
@@ -47,23 +46,11 @@ namespace ProgrammaticallyBuilding
             return lable;
         }
 
-        private void OnInput(Node camera, InputEvent @event, Vector3 position, Vector3 normal, long shapeIdx)
+        public bool IsClicked()
         {
-            if (@event is InputEventMouseButton && @event.IsPressed())
-            {
-                Node lable = GetChild(0);
-                lable.Set("visible", lable.Get("visible").AsBool() == false);
-
-                Node meshNode = GetParent().GetChild(0);
-
-                if ((float)meshNode.Get("transparency") != 0)
-                {
-                    transparency = 0;
-                }
-
-                meshNode.Set("transparency", transparency);
-                transparency = 0.7f;
-            }            
+            return clicked;
         }
+
+        public Node staticParent { get; set; }
     }
 }

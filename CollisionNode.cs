@@ -9,10 +9,14 @@ namespace ProgrammaticallyBuilding
 {
     public partial class CollisionNode : CollisionShape3D
     {
+        public CollisionNode()
+        {
+            //Set("name", (string)GetParent().Get("name") + "Col");
+            //AddChild(AddMesh());
+        }
         public override void _Ready()
         {
-            Set("name", (string)GetParent().Get("name") + "Col");
-            //AddChild(AddMesh());
+
         }
         private static Node AddMesh()
         {

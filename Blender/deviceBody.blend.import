@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://drl3ruqxn23kg"
-path="res://.godot/imported/rackUnit.blend-38105eab221534572c5a1f5b72058e14.scn"
+uid="uid://bynilug768te8"
+path="res://.godot/imported/deviceBody.blend-0e82c807bb005514efaaa0c5479710c4.scn"
 
 [deps]
 
-source_file="res://Blender/rackUnit.blend"
-dest_files=["res://.godot/imported/rackUnit.blend-38105eab221534572c5a1f5b72058e14.scn"]
+source_file="res://Blender/deviceBody.blend"
+dest_files=["res://.godot/imported/deviceBody.blend-0e82c807bb005514efaaa0c5479710c4.scn"]
 
 [params]
 
